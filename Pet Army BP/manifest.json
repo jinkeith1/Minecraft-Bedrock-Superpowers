@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Pet Army - Behavior Pack",
+    "description": "Tame ANY mob and build your own pet army! Hit mobs with the Taming Wand to recruit them.",
+    "uuid": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "b2c3d4e5-f6a7-8901-bcde-f12345678901",
+      "entry": "scripts/main.js",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.9.0"
+    },
+    {
+      "uuid": "c3d4e5f6-a7b8-9012-cdef-123456789012",
+      "version": [1, 0, 0]
+    }
+  ]
+}
